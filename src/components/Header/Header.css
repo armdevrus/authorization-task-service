@@ -1,0 +1,50 @@
+.h-header {
+    width: 100%;
+    height: 80px;
+    background-color: #e4b062;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.h-img-logo {
+    margin: auto 0 auto 20px;
+}
+.h-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.h-title {
+    position: absolute;
+    right: 100px;
+}
+.h-img-exit {
+    position: absolute;
+    margin: auto;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+.h-img-logo {
+    width: 200px;
+}
+.h-title{
+    font-size: 18px;
+}
+.h-img-exit{
+    width: 50px;
+}
+}
+@media screen and (max-width: 375px) {
+   .h-img-logo {
+    width: 150px;
+}
+.h-title{
+    font-size: 14px;
+    right: 60px;
+}
+.h-img-exit{
+    width: 30px;
+}
+}
